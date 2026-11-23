@@ -10,4 +10,7 @@ class URLAnalysisRequest(BaseModel):
 class URLAnalysisResponse(BaseModel):
     url: str
     status: str
+    risk_score: float
     features: Dict[str, int]
+    verdict: str
+    latency_ms: int | None = None

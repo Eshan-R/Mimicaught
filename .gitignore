@@ -1,0 +1,18 @@
+# secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# data (large, and not yours to redistribute)
+data/raw/
+data/processed/
+*.csv
+
+# trained models (large; share via Drive/releases)
+models_saved/*.pkl
